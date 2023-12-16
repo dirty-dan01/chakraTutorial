@@ -3,9 +3,10 @@ import { Flex, Box, Heading, Spacer, Text, Button, HStack, VStack } from "@chakr
 export default function NavBar() {
   return (
     <Flex as="nav" p="10px" alignItems="center">
-      <Heading as="h1">Testing</Heading>
+      <Heading as="h1">Mojo Dojo Casa House</Heading>
       <Spacer/>
-      <HStack gap="10px">
+
+      <HStack spacing="20px">
         <Box bg={"gray.200"} p={10}>My box</Box>
         <Text>Profile</Text>
         <Button colorScheme="linkedin">BUTTLICKER OUR PRICES HAVE NEVER BEEN LOWER</Button>

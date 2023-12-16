@@ -19,7 +19,7 @@ export default function Dashboard() {
       <Box sx={boxStyle}>
         Welcome to my page
       </Box>
-    <SimpleGrid p={10} spacing={10} minChildWidth="300px">
+    <SimpleGrid p={10} spacing={10} minChildWidth="250px">
         <Box bg={"whiteAlpha.600"} h="200px" border={"1px solid"}></Box>
         <Box bg={"whiteAlpha.600"} h="200px" border={"1px solid"}></Box>
         <Box bg={"whiteAlpha.600"} h="200px" border={"1px solid"}></Box>
