@@ -1,4 +1,4 @@
-import { Box, SimpleGrid } from "@chakra-ui/react";
+import { Text,  Box, SimpleGrid } from "@chakra-ui/react";
 
 export default function Dashboard() {
 
@@ -20,7 +20,9 @@ export default function Dashboard() {
         Welcome to my page
       </Box>
     <SimpleGrid p={10} spacing={10} minChildWidth="250px">
-        <Box bg={"whiteAlpha.600"} h="200px" border={"1px solid"}></Box>
+        <Box bg={"whiteAlpha.600"} h="200px" border={"1px solid"}>
+          <Text color={{base: 'pink', md: 'blue', lg: 'green'}}>Hello</Text>
+        </Box>
         <Box bg={"whiteAlpha.600"} h="200px" border={"1px solid"}></Box>
         <Box bg={"whiteAlpha.600"} h="200px" border={"1px solid"}></Box>
         <Box bg={"whiteAlpha.600"} h="200px" border={"1px solid"}></Box>
