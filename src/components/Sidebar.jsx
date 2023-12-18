@@ -1,5 +1,5 @@
 import { AtSignIcon, CalendarIcon, EditIcon } from "@chakra-ui/icons";
-import { List, ListIcon, ListItem } from "@chakra-ui/react";
+import { AlertIcon, List, ListIcon, ListItem } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 
 export default function Sidebar() {
@@ -21,6 +21,12 @@ export default function Sidebar() {
             <NavLink to="/profile">
                 <ListIcon   ListIcon as={AtSignIcon} color={"white"}></ListIcon>
                 Profile
+            </NavLink>
+        </ListItem>
+        <ListItem>
+            <NavLink to="/vaccants">
+                <ListIcon   ListIcon as={EditIcon} color={"white"}></ListIcon>
+                Vaccants
             </NavLink>
         </ListItem>
     </List>
